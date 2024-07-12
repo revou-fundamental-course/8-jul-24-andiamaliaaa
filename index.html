@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Main Title -->
-    <header>
+    <header class="title">
         <h1>Calculator BMI</h1>
     </header>
 
     <main>
         <!-- Left Content -->
-        <section>
+        <section class="main-content">
             <!-- Main Article -->
         <article>
             <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang 
-                menunjang penampilan</p>
+                menunjang penampilan, berat badan ieal juga menandakan kondisi tubuh yang sehat.
+                Bagaimana denganmu?</p>
+            <p>Yuk, hitung sekarang di kalkulator BMI</p>
         </article>
 
         <!-- Form -->
         <section>
-            <form style="border: 1px solid">
+            <form class="input-form">
                 <div>
+                    <div class="input-title">Jenis Kelamin</div>
                     <input type="radio" id="selection-man"><label for="'selection-man">Laki-Laki</label>
                     <input type="radio" id="selection-woman"><label for="'selection-woman">Perempuan</label>
                 </div>
@@ -40,8 +44,8 @@
                     <input type="number" id="'input-tinggi-badan">
                 </div>
                 <div>
-                    <button>Submit BIM</button>
-                    <button>Reset</button>
+                    <button class="button submit">Submit BIM</button>
+                    <button class="button reset">Reset</button>
                 </div>
             </form>
         </section>
@@ -53,22 +57,34 @@
             </header>
 
             <article>
-                <p>Lorem Ipsum Dolor Sit Amet...</p>
+
+                <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau
+                    menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan
+                yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang
+            memenuhi syarat seperti dokter.</p>
             </article>
         </section>
         </section>
 
         <!-- Right Content -->
-        <section>
+        <section class="main-content">
             <!-- Result Article -->
         <article>
-            <header>
+            <header class="title">
                 <h1>Hasil</h1>
             </header>
 
             <!-- Result Content --> 
-            <section>
+            <section class="result-section">
+                <p>Hasil Result Adalah:</p>
 
+                <h2>24,7</h2>
+
+                <p>Anda Memiliki Berat Badan Berlebih</p>
+
+                <div>
+                    <button class="button download">Download Hasil BMI</button>
+                </div>
             </section>
 
             <!-- General Information -->
