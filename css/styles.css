@@ -12,6 +12,10 @@ main {
     padding: 12px;
 }
 
+.text{
+    text-align: justify;
+}
+
 .input-title{
     font-size: 14px;
     font-weight: bold;
@@ -52,6 +56,15 @@ input[type=number] {
     border: 3px solid #555;
   }
 
+ul{
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
 .result-section{
     text-align: center;
     padding: 12px;
@@ -60,5 +73,13 @@ input[type=number] {
 }
 
 .download {
+    background-color: cornflowerblue;
+}
+
+.konsul{
+    background-color: cornflowerblue;
+}
+
+.regist{
     background-color: cornflowerblue;
 }
