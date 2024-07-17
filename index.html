@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <label for="input-berat-badan">Berat Badan (kg)</label>
-                    <input type="number" id="'berat-badan" required>
+                    <input type="number" id="'berat" required>
                 </div>
                 <div>
                     <label for="input-usia">Usia (tahun)</label>
@@ -39,11 +39,11 @@
                 </div>
                 <div>
                     <label for="input-tinggi-badan">Tinggi Badan (cm)</label>
-                    <input type="number" id="tinggi-badan" required>
+                    <input type="number" id="tinggi" required>
                 </div>
                 <div>
-                    <button class="button submit" onclick="hitungBMI()">Hitung BMI</button>
-                    <button class="button reset">Reset</button>
+                    <button class="button submit" type="button" onclick="updateResult();">Hitung BMI</button>
+                    <button class="button reset" type="button">Reset</button>
                 </div>
             </form>
         </section>
@@ -109,6 +109,7 @@
         </article>
         </section>
     </main>
-    <script>src="scripts.js"</script>
+    
+    <script>src="js/script.js"</script>
 </body>
 </html>
